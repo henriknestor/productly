@@ -63,7 +63,9 @@ button {
 
 .btn--header-white {
     font-weight: 600;
-    border:
+    color: black;
+    border: solid 2px;
+    border-color: black;
     background-color: #fff;
     width: 110px;
     height: 46px;
@@ -91,24 +93,30 @@ button {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info {
     background-color: antiquewhite;
+    width: 45%;
     max-width: 480px;
+    min-width: 300px;
     padding-right: 20px;
 }
 
 .info--right{
     background-color: antiquewhite;
+    width: 45%;
     max-width: 480px;
+    min-width: 300px;
     padding-left: 20px;
 }
 
 .illustration {
     width: 45%;
     /* max-width: 500px; */
+    min-width: 300px;
 }
 
 #product {
