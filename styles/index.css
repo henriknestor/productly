@@ -80,24 +80,61 @@ button {
     align-items: center;
 }
 
-.hero {
+.container {
     background-color: aquamarine;
     width: 100%;
     max-width: 1000px;
     min-height: 100px;
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .info {
+    background-color: antiquewhite;
     max-width: 480px;
     padding-right: 20px;
 }
 
+.info--right{
+    background-color: antiquewhite;
+    max-width: 480px;
+    padding-left: 20px;
+}
+
 .illustration {
     width: 45%;
-    max-width: 500px;
+    /* max-width: 500px; */
+}
+
+#product {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#customers {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resources {
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
