@@ -3,11 +3,18 @@
 * {
     /* text-align: center; This overrides settings in .info ..? */
     font-family: 'Poppins', sans-serif;
+    color: #2F281E;
+}
+
+p {
+    color: #544837;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
 }
 
 h1 {
-    color: #2F281E;
-    font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
@@ -15,14 +22,38 @@ h1 {
 }
 
 h2 {
-    color: #2F281E;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     max-width: 540px;
+}
+
+h3 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h4 {
+color: #544837;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: -35px;
+}
+
+h5 {
+    color: #2F281E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: -5px;
 }
 
 button {
@@ -146,12 +177,21 @@ nav {
     padding-right: 20px;
 }
 
-.info--right{
+.info--right {
     background-color: antiquewhite;
     width: 45%;
     max-width: 480px;
     min-width: 300px;
     padding-left: 20px;
+}
+
+.info--center {
+    background-color: coral;
+    text-align: center;
+    width: 100%;
+    max-width: 1095px;
+    display: flex;
+    justify-content: center;
 }
 
 .illustration {
@@ -167,6 +207,16 @@ nav {
     align-items: center;
 }
 
+.four-puffs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.puff {
+    background-color: deeppink;
+    max-width: 240px;
+}
+
 #customers {
     background-color: chartreuse;
     display: flex;
@@ -179,6 +229,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.checklist {
+    display: inline-block;
+}
+
+.checklist--item {
+    max-width: 450px;}
+
+.checklist--text {
+    max-width: 365px;
 }
 
 #resources {
