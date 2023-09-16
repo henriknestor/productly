@@ -1,7 +1,7 @@
 /* ---- Global ---- */
 
 * {
-    /* text-align: center; This overrides settings in .info ..? */
+    /* text-align: center; This overrides settings in .info ..? Does the browser read from the bottom and upwards...?*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,7 +24,6 @@ h1 {
 
 h2 {
     color: #2F281E;
-    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -100,8 +99,7 @@ button:hover {
 }
 
 .button-white:hover {
-    background-color: rgb(255, 250, 240);
-    cursor: pointer;
+    background-color: #fff;
 }
 
 /* ---- End of global ---- */
@@ -112,26 +110,26 @@ button:hover {
 header {
     position: sticky;
     top:0;
-    background-color: antiquewhite;
-    /* box-shadow: 0px 1px 10px; */
+    background-color: #fff;
+    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); */
 }
 
 nav {
+    /* background-color: cornflowerblue; */
+     /* I set background-color to basically all classes, sections, elements etc in order to get a grasp of them while coding. Plan to comment these out when I´m done. */
     margin: 0 auto 0;
     width: 100%;
     max-width: 1095px;
     min-height: 100px;
     padding-left: 20px;
     padding-right: 20px; /* This padding doesn't seem to work when contracting the browser ..? Plus, I get a horizontal scroll bar when contracting the browser..?*/
-    background-color: cornflowerblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logotype {
-    background-color: brown;
-    /* I set background-color to basically all classes, sections, elements etc in order to get a grasp of them while coding. Plan to comment these out when I´m done. */
+    /* background-color: brown; */
     display: flex;
     justify-content: flex-start;
     width: 185px;
@@ -140,7 +138,7 @@ nav {
 }
 
 .menu {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -170,8 +168,7 @@ nav {
 }
 
 .btn--header-white:hover {
-    background-color: rgb(255, 250, 240);
-    cursor: pointer;
+    background-color: #fff;
 }
 
 /* ---- End of header --- */
@@ -179,14 +176,14 @@ nav {
 /* ---- Content ---- */
 
 #splash {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 100%;
     max-width: 1095px;
     min-height: 100px;
@@ -201,7 +198,7 @@ nav {
 }
 
 .info {
-    background-color: red;
+    /* background-color: red; */
     text-align: left; /* this gets overrided by settings in global ..? */
     width: 45%;
     max-width: 600px;
@@ -210,7 +207,7 @@ nav {
 }
 
 .info--right {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 45%;
     max-width: 480px;
     min-width: 300px;
@@ -218,7 +215,7 @@ nav {
 }
 
 .info--center {
-    background-color: coral;
+    /* background-color: coral; */
     text-align: center;
     width: 100%;
     max-width: 1095px;
@@ -227,7 +224,7 @@ nav {
 }
 
 .illustration {
-    background-color: black;
+    /* background-color: black; */
     width: 45%;
     max-width: 605px;
     min-width: 300px;
@@ -236,32 +233,32 @@ nav {
 }
 
 #product {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .four-puffs {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-between;
 }
 
 .puff {
-    background-color: deeppink;
+    /* background-color: deeppink; */
     max-width: 240px;
 }
 
 #customers {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #pricing {
-    background-color: crimson;
+    /* background-color: crimson; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +288,7 @@ nav {
 }
 
 #resources {
-    background-color: darkorange;
+    /* background-color: darkorange; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,13 +310,13 @@ nav {
 /* Footer */
 
 footer {
+    /* background-color: cornflowerblue; */
     margin: 0 auto 0;
     width: 100%;
     max-width: 1095px;
     min-height: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: cornflowerblue;
     display: flex;
     justify-content: space-between;
 }
@@ -336,7 +333,7 @@ footer {
 }
 
 .input-field {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 325px;
     display: flex;
     flex-wrap: wrap;
