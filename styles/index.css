@@ -1,3 +1,12 @@
+/* First of all:
+
+I get a horizontal scroll bar when contracting the browser..?
+And the site just goes white out in nothing for like 400 pixels...?
+
+I just don´t understand why..?
+
+*/
+
 /* ---- Global ---- */
 
 * {
@@ -70,7 +79,7 @@ a:visited {
 }
 
 a:hover {
-    color: #5e5346;
+    color: #F90;
     cursor: pointer;
 }
 
@@ -111,7 +120,7 @@ header {
     position: sticky;
     top:0;
     background-color: #fff;
-    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); (Added this not to get confused when I got rid of the background-colors)*/
 }
 
 nav {
@@ -121,8 +130,6 @@ nav {
     width: 100%;
     max-width: 1095px;
     min-height: 100px;
-    padding-left: 20px;
-    padding-right: 20px; /* This padding doesn't seem to work when contracting the browser ..? Plus, I get a horizontal scroll bar when contracting the browser..?*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,13 +146,21 @@ nav {
 
 .menu {
     /* background-color: yellow; */
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    justify-content: flex-end;
+    gap: 5%;
 }
 
 .menu-buttons {
+    /* background-color: aqua; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -180,6 +195,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .container {
@@ -234,6 +250,7 @@ nav {
 
 #product {
     /* background-color: cadetblue; */
+    margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,13 +258,29 @@ nav {
 
 .four-puffs {
     /* background-color: blueviolet; */
+    margin-bottom: 34px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.puff {
+.two-puffs {
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one-puff {
     /* background-color: deeppink; */
-    max-width: 240px;
+    margin-top: 54px;
+    width: 240px;
+    text-align: left;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
 }
 
 #customers {
@@ -255,6 +288,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 #pricing {
@@ -262,6 +296,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .checklist {
@@ -319,6 +354,15 @@ footer {
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-lists {
+    background-color: green;
+    min-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .footer-list {
