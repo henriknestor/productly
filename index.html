@@ -6,22 +6,26 @@
     <title>Productly</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2c55d0bea.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#splash"><img src="images/Productly_logo.svg" class="logotype"></a>
-            <div class="menu">
+            <a href="#splash"><div class="logotype"><img src="images/Productly_logo.svg" width="100%" height="100%"></div></a>
+            <ul class="menu">
                 <!-- I put anchorlinks here just for fun / practice - I don't understand how to get the scroll to play well with the navbar however :( As for now, the navbar hides the top 100 pixels of the content :/ -->
-                <div class="menu--item"><a href="#product">Product</a></div>
-                <div class="menu--item"><a href="#customers">Customers</a></div>
-                <div class="menu--item"><a href="#pricing">Pricing</a></div>
-                <div class="menu--item"><a href="#resources">Resources</a></div>
+                <li class="menu--item"><a href="#product">Product</a></li>
+                <li class="menu--item"><a href="#customers">Customers</a></li>
+                <li class="menu--item"><a href="#pricing">Pricing</a></li>
+                <li class="menu--item"><a href="#resources">Resources</a></li>
                 <div class="menu-buttons">
                     <button class="btn--header-white">Sign in</button>
-                    <button class="btn--header"><i class="fa-solid fa-play"></i>Sign up</button>
+                    <button class="btn--header">Sign up</button>
                 </div>
-            </div>
+            </ul>
         </nav>
     </header>
 
@@ -34,7 +38,7 @@
                     <button>Get started</button>
                     <button class="button-white"><i class="fa-solid fa-play"></i>Watch the video</button>
                 </div>
-                <img src="images/illustration_header.png" alt="illustration_header" class="illustration">
+                <img src="images/illustration_header.png" alt="illustration of three happy people jumping" class="illustration">
             </div>
         </section>
 
@@ -98,13 +102,13 @@
                     <h5>Custom Design designers</h5>
                     <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
                 </div>
-                <img src="images/illutration_customers.png" alt="illustration customers" class="illustration">
+                <img src="images/illutration_customers.png" alt="illustration of a guy conducting a discussion" class="illustration">
             </div>
         </section>
 
         <section id="pricing">
             <div class="container">
-                <img src="images/illustration_pricing.png" alt="illustration pricing" class="illustration">
+                <img src="images/illustration_pricing.png" alt="illustration of a guy using a laptop" class="illustration">
                 <div class="info--right">
                     <h4>Easier decision making for</h4>
                     <h2>Product Managers</h2>
@@ -119,7 +123,8 @@
                             <div class="checklist--item">
                                 <img src="images/list-icon_checkbox.svg" alt="checkbox" class="checklist--icon"><p class="checklist--text">Never worry about overpaying for your energy again.</p>
                             </div>
-                        </div> 
+                        </div>
+                </div>
             </div>
         </section>
 
@@ -136,28 +141,30 @@
                     <h5>Custom Design designers</h5>
                     <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
                 </div>
-                <img src="images/illustration_resources.png" alt="placeholder" class="illustration">
+                <img src="images/illustration_resources.png" alt="illustration of a guy using a big touch screen" class="illustration">
             </div>
         </section>
     
     <div class="line"></div>
+
+    </main>
 
     <footer>
         <img src="images/Productly_logo.svg" class="logotype">
         <div class="footer-content">
             <div class="footer-lists">
                 <ul class="footer-list">
-                    <li>About us</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>FAQ</li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">FAQ</a></li>
                 </ul>
 
                 <ul class="footer-list">
-                    <li>Disclaimer</li>
-                    <li>Financing</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms of service</li>
+                    <li><a href="">Disclaimer</a></li>
+                    <li><a href="">Financing</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of service</a></li>
                 </ul>
             </div>
 
@@ -167,8 +174,6 @@
             </div>
         </div>
     </footer>
-
-    </main>
     
 </body>
 </html>
