@@ -1,6 +1,12 @@
-<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.45833" y="1.45833" width="32.0833" height="32.0833" rx="12.3958" fill="#FF9900"/>
-<rect x="1.45833" y="1.45833" width="32.0833" height="32.0833" rx="12.3958" stroke="white" stroke-width="2.91667"/>
-<rect x="1.45833" y="1.45833" width="32.0833" height="32.0833" rx="12.3958" stroke="#FF9900" stroke-width="2.91667"/>
-<path d="M25.7657 12.2393C25.4533 11.9202 24.9468 11.9202 24.6343 12.2393L15.0498 22.0277L11.3657 18.2653C11.0533 17.9462 10.5468 17.9462 10.2343 18.2653C9.92189 18.5843 9.92189 19.1016 10.2343 19.4207L14.4841 23.7608C14.7964 24.0798 15.3033 24.0796 15.6155 23.7608L25.7657 13.3947C26.0781 13.0757 26.0781 12.5584 25.7657 12.2393Z" fill="white"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF9900;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M13.5,0h8C28.9,0,35,6.1,35,13.5v8C35,28.9,28.9,35,21.5,35h-8C6.1,35,0,28.9,0,21.5v-8C0,6.1,6.1,0,13.5,0z"/>
+<path class="st1" d="M25.8,12.2c-0.3-0.3-0.8-0.3-1.1,0L15,22l-3.7-3.8c-0.3-0.3-0.8-0.3-1.1,0c-0.3,0.3-0.3,0.8,0,1.2l4.2,4.3
+	c0.3,0.3,0.8,0.3,1.1,0l10.2-10.4C26.1,13.1,26.1,12.6,25.8,12.2z"/>
 </svg>

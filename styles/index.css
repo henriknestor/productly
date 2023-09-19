@@ -100,6 +100,11 @@ button {
     width: 175px;
     height: 53px;
     flex-shrink: 0;
+    /* margin-right: 20px; */
+}
+
+.button-margin {
+    margin-right: 20px;
 }
 
 button:hover {
@@ -109,10 +114,9 @@ button:hover {
 }
 
 .button-white {
-    background: #fff;
+    background: #ffffff;
     color: #F90;
     text-decoration: underline;
-    margin-left: 20px;
 }
 
 .button-white:hover {
@@ -141,12 +145,9 @@ nav {
 }
 
 .logotype {
-    background-color: #544837;
-    display: flex;
-    justify-content: flex-start;
     width: 185px;
     height: 32px;
-    /* I don´t get why Productly_logo.svg won´t fill this entire space? And why is it center-justified (not flex-start) and stuck to the bottom?*/
+    padding-left: 20px;
 }
 
 .menu {
