@@ -1,5 +1,5 @@
 html {
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
 }
 
 * {
@@ -201,6 +201,7 @@ nav {
 /* ---- Content ---- */
 
 #splash {
+    scroll-margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,6 +253,7 @@ nav {
 }
 
 #product {
+    scroll-margin-top: 15vh;
     margin-bottom: 5vh;
     display: flex;
     justify-content: center;
@@ -283,6 +285,7 @@ nav {
 }
 
 #customers {
+    scroll-margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,6 +293,7 @@ nav {
 }
 
 #pricing {
+    scroll-margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,6 +324,7 @@ nav {
 }
 
 #resources {
+    scroll-margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
