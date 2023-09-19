@@ -144,31 +144,56 @@ nav {
 }
 
 .logotype {
+    background-color: #F90;
     width: 185px;
     height: 32px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .menu {
     background-color: yellow;
     list-style: none;
-    max-width: 800px;
-    width: 100%;
+    max-width: 740px;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    gap: 10%;
+}
+
+.menu-text {
+    background-color: red;
+    max-width: 400px;
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.menu-text-first{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu-text-second{
+    background-color: aqua;
+    /* display: flex;
+    flex-direction: row;
+    gap: 40px; */
 }
 
 .menu-buttons {
     background-color: green;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 40px;
     display: flex;
     justify-content: flex-end;
 }
