@@ -133,7 +133,6 @@ header {
 }
 
 nav {
-    background-color: blue;
     margin: 0 auto 0;
     width: 100%;
     max-width: 1095px;
@@ -144,56 +143,41 @@ nav {
 }
 
 .logotype {
-    background-color: #F90;
-    width: 185px;
-    height: 32px;
+    max-width: 185px;
+    width:100%;
+    max-height: 32px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .menu {
-    background-color: yellow;
-    list-style: none;
-    max-width: 740px;
-    width: 70%;
+    max-width: 800px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
-    /* margin-left: -20px; */
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
 }
 
-.menu-text {
-    background-color: red;
-    max-width: 400px;
-    width:100%;
+.menu-list{
+    max-width: 450px;
+    width: 100%;
+    list-style: none;
     display: flex;
     flex-flow: row wrap;
-    gap: 40px;
+    justify-content: flex-end;
 }
 
-.menu-text-first{
-    background-color: orange;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-}
-
-.menu-text-second{
-    background-color: aqua;
-    /* display: flex;
-    flex-direction: row;
-    gap: 40px; */
+.menu-item {
+    padding-left: 40px;
+    line-height: 30px;
 }
 
 .menu-buttons {
-    background-color: green;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    padding-left: 40px;
     display: flex;
     justify-content: flex-end;
 }
@@ -364,7 +348,6 @@ nav {
 /* ---- Footer ---- */
 
 footer {
-    background-color: red;
     margin: 0 auto;
     margin-bottom: 60px;
     width: 100%;
@@ -381,7 +364,6 @@ footer {
 }
 
 .footer-lists {
-    background-color: #BCD0E5;
     min-width: 320px;
     margin-right: 50px;
     margin-left: -20px;
