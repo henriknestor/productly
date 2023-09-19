@@ -1,13 +1,6 @@
-/* First of all:
-
-I get a horizontal scroll bar when contracting the browser..?
-And the site just goes white out in nothing for like 400 pixels...?
-
-I just don´t understand why..?
-
-*/
-
-/* ---- Global ---- */
+html {
+    scroll-behavior:smooth
+}
 
 * {
     font-family: 'Poppins', sans-serif;
